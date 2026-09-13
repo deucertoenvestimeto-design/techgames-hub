@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TECHINFO GAMES | Tecnologia e Games</title>
+<style>
+:root{--bg:#0a0a12;--card:#151525;--neon1:#6c5cff;--neon2:#00d4ff;--text:#e8e8ff}
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',sans-serif}
+body{background:var(--bg);color:var(--text)}
+header{display:flex;justify-content:space-between;align-items:center;padding:20px 5%;border-bottom:1px solid #222;background:rgba(10,10,18,0.9);position:sticky;top:0}
+.logo{font-size:24px;font-weight:900;color:var(--neon2)} .logo span{color:var(--neon1)}
+nav a{color:#aaa;margin:0 12px;text-decoration:none;font-weight:600} nav a:hover{color:var(--neon2)}
+.btn{background:linear-gradient(90deg,var(--neon1),#a855f7);padding:10px 20px;border-radius:20px;color:white;text-decoration:none;font-weight:700}
+.hero{display:grid;grid-template-columns:1.2fr 0.8fr;gap:30px;padding:60px 5%;background:linear-gradient(180deg,#0a0a12,#151525)}
+.hero h1{font-size:42px;margin-bottom:15px} .hero p{color:#aaa;line-height:1.6}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;padding:20px 5%}
+.card{background:var(--card);border-radius:15px;padding:15px;border:1px solid #222;transition:0.3s}
+.card:hover{border-color:var(--neon1);transform:translateY(-5px)}
+.card h3{margin:10px 0;font-size:16px}
+.tag{background:var(--neon1);font-size:10px;padding:3px 8px;border-radius:10px}
+section h2{padding:40px 5% 0 5%;font-size:22px}
+footer{text-align:center;padding:30px;color:#666;border-top:1px solid #222;margin-top:40px}
+@media(max-width:800px){.hero,.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">TECHINFO <span>GAMES</span></div>
+<nav><a href="#">HOME</a><a href="#">NEWS</a><a href="#">REVIEWS</a><a href="#">GUIDES</a></nav>
+<a class="btn" href="#">INSCREVER-SE</a>
+</header>
+
+<div class="hero">
+<div>
+<h1>NVIDIA RTX 5090: A MAIS PODEROSA JÁ TESTADA</h1>
+<p>Testamos a nova placa em mais de 20 jogos em 4K. Veja benchmarks, temperatura e se vale a pena o upgrade.</p><br>
+<a class="btn" href="#">Ler Review Completo →</a>
+</div>
+<div class="card"><img src="https://via.placeholder.com/500x300/6c5cff/ffffff?text=RTX+5090" style="width:100%;border-radius:10px"><h3>RTX 5090 • 24GB GDDR7 • 4K 240Hz</h3></div>
+</div>
+
+<section><h2>HARDWARE REVIEWS</h2>
+<div class="grid">
+<div class="card"><span class="tag">CPU REVIEW</span><h3>AMD Ryzen 9800X3D: Rei dos Games?</h3><p style="color:#888">Testamos o novo X3D</p></div>
+<div class="card"><span class="tag">HANDHELD</span><h3>Steam Deck OLED: Vale em 2026?</h3><p style="color:#888">Review completo</p></div>
+<div class="card"><span class="tag">PERIFÉRICOS</span><h3>Keychron Q6 Max: Teclado Premium</h3><p style="color:#888">Custom e sem fio</p></div>
+</div>
+</section>
+
+<footer>© 2026 TECHINFO GAMES - Todos os direitos reservados</footer>
+</body>
+</html>
